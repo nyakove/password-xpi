@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "PassGen",
+  "version": "0.1",
+
+  "description": "Simple password generator",
+  "homepage_url": "https://github.com/nyakove/password",
+  "icons": {
+    "48": "icon48.png",
+	"96": "icon96.png",
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon32.png",
+    "default_title": "PassGen",
+    "default_popup": "pass.html"
+  },
+
+  "web_accessible_resources": [
+    "beasts/frog.jpg",
+    "beasts/turtle.jpg",
+    "beasts/snake.jpg"
+  ]
+
+}
